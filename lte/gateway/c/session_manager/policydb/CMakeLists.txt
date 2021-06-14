@@ -32,7 +32,7 @@ set(POLICYDB_LTE_CPP_PROTOS policydb)
 generate_cpp_protos("${POLICYDB_LTE_CPP_PROTOS}" "${PROTO_SRCS}"
     "${PROTO_HDRS}" ${LTE_PROTO_DIR} ${LTE_CPP_OUT_DIR})
 
-message("Proto_srcs are ${PROTO_SRCS}")
+message("Policydb proto_srcs are ${PROTO_SRCS}")
 
 add_library(POLICYDB
     PolicyLoader.cpp
