@@ -24,7 +24,8 @@
 
 #include "mme_app_ue_context.h"
 
-typedef struct mme_app_desc_s {
+typedef struct mme_app_desc_t mme_app_desc_t;
+struct mme_app_desc_t{
   /* UE contexts */
   mme_ue_context_t mme_ue_contexts;
 
@@ -58,4 +59,4 @@ typedef struct mme_app_desc_s {
   uint32_t nb_bearers_managed;
   uint32_t nb_ue_since_last_stat;
   uint32_t nb_bearers_since_last_stat;
-} mme_app_desc_t;
+};

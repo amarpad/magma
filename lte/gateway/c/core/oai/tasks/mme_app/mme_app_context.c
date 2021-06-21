@@ -68,7 +68,7 @@
 #include "intertask_interface_types.h"
 #include "itti_types.h"
 #include "mme_api.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "mme_app_timer.h"
 #include "nas_timer.h"
 #include "obj_hashtable.h"

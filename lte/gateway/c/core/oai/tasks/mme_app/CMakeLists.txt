@@ -82,6 +82,7 @@ endif (EMBEDDED_SGW)
 
 target_include_directories(TASK_MME_APP PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR/public}
     ${S1AP_C_DIR}
     $<TARGET_FILE_DIR:TASK_MME_APP>
     )

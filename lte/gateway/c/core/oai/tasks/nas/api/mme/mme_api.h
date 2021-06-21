@@ -138,8 +138,8 @@ typedef struct mme_api_qos_s {
 /****************************************************************************/
 struct mme_config_s;
 
-status_code_e mme_api_get_emm_config(
-    mme_api_emm_config_t* config, const struct mme_config_s* mme_config_p);
+int mme_api_get_emm_config(
+    mme_api_emm_config_t* config, const struct mme_config_t* mme_config_p);
 
 #define REMOVE_OLD_CONTEXT true
 #define REMOVE_NEW_CONTEXT false

@@ -18,7 +18,8 @@
 
 #include <stddef.h>
 
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
+#include "mme_app_desc.h"
 #include "service303.h"
 
 void service303_mme_app_statistics_read(

@@ -47,7 +47,7 @@
 #include "common_types.h"
 #include "intertask_interface_types.h"
 #include "mme_app_messages_types.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "s11_messages_types.h"
 #include "s1ap_messages_types.h"
 #include "timer_messages_types.h"

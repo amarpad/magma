@@ -69,7 +69,7 @@
 #endif
 static bool parse_bool(const char* str);
 
-struct mme_config_s mme_config = {.rw_lock = PTHREAD_RWLOCK_INITIALIZER, 0};
+struct mme_config_t mme_config = {.rw_lock = PTHREAD_RWLOCK_INITIALIZER, 0};
 
 //------------------------------------------------------------------------------
 int mme_config_find_mnc_length(

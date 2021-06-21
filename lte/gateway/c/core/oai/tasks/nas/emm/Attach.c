@@ -62,7 +62,7 @@
 #include "common_ies.h"
 #include "dynamic_memory_check.h"
 #include "log.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "mme_app_defs.h"
 #include "mme_app_ue_context.h"
 #include "mme_app_itti_messaging.h"

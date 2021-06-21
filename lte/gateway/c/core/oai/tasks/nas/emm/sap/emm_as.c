@@ -50,7 +50,7 @@
 #include "emm_msg.h"
 #include "emm_msgDef.h"
 #include "mme_api.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "nas_message.h"
 #include "nas_procedures.h"
 #include "mme_app_defs.h"

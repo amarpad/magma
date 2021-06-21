@@ -26,7 +26,7 @@
 #include <stdio.h>
 #include <pthread.h>
 #include <stdbool.h>
-#include <mme_app_state.h>
+#include "public/mme_app_state.h"
 
 #include "common_defs.h"
 #include "log.h"

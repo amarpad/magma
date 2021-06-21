@@ -18,7 +18,7 @@
 #include "log.h"
 #include "mme_app_defs.h"
 #include "mme_app_statistics.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 
 int mme_app_statistics_display(void) {
   mme_app_desc_t* mme_app_desc_p = get_mme_nas_state(false);

@@ -21,8 +21,12 @@
 extern "C" {
 #endif
 
-#include "mme_config.h"
-#include "mme_app_desc.h"
+#include "common_types.h"
+
+// Forward declarations
+typedef struct mme_config_t mme_config_t;
+typedef struct mme_app_desc_t mme_app_desc_t;
+typedef struct hash_table_ts_s hash_table_ts_t;
 
 /**
  * When the process starts, initialize the in-memory MME+NAS state and, if

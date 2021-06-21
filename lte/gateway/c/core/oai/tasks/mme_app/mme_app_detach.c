@@ -44,7 +44,7 @@
 #include "common_types.h"
 #include "intertask_interface_types.h"
 #include "itti_types.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "emm_cnDef.h"
 #include "nas_proc.h"
 #include "s11_messages_types.h"

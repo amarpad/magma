@@ -31,7 +31,7 @@
 #include "mme_app_defs.h"
 #include "common_defs.h"
 #include "mme_app_itti_messaging.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "3gpp_36.401.h"
 #include "nas/as_message.h"
 #include "common_types.h"

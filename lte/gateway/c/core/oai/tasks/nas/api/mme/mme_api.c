@@ -46,11 +46,12 @@
 #include "common_types.h"
 #include "common_defs.h"
 #include "mme_api.h"
+#include "public/mme_app_state.h"
+#include "mme_app_desc.h"
 #include "mme_app_ue_context.h"
 #include "mme_config.h"
 #include "emm_data.h"
 #include "EpsNetworkFeatureSupport.h"
-#include "mme_app_state.h"
 
 /****************************************************************************/
 /*******************  L O C A L    D E F I N I T I O N S  *******************/
@@ -99,8 +100,8 @@ static int copy_plmn_from_config(
  **      Others:    None                                       **
  **                                                                        **
  ***************************************************************************/
-status_code_e mme_api_get_emm_config(
-    mme_api_emm_config_t* config, const struct mme_config_s* mme_config_p) {
+int mme_api_get_emm_config(
+    mme_api_emm_config_t* config, const struct mme_config_t* mme_config_p) {
   OAILOG_FUNC_IN(LOG_NAS);
   if (mme_config_p->served_tai.nb_tai < 1) {
     OAILOG_ERROR(LOG_NAS, "No TAI configured\n");

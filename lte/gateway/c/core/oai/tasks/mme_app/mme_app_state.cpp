@@ -15,7 +15,7 @@
  *      contact@openairinterface.org
  */
 
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "mme_app_state_manager.h"
 #include "mme_app_ip_imsi.h"
 

@@ -40,7 +40,7 @@
 #include "mme_app_desc.h"
 #include "mme_app_apn_selection.h"
 #include "mme_app_itti_messaging.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 
 /****************************************************************************/
 /****************  E X T E R N A L    D E F I N I T I O N S  ****************/

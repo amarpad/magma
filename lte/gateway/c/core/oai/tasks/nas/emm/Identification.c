@@ -40,7 +40,7 @@
 #include "emm_regDef.h"
 #include "emm_cause.h"
 #include "mme_app_defs.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "nas_procedures.h"
 
 /****************************************************************************/

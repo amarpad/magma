@@ -74,7 +74,7 @@
 #include "esm_msg.h"
 #include "esm_sapDef.h"
 #include "mme_app_defs.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 #include "mme_app_messages_types.h"
 #include "mme_app_sgs_fsm.h"
 #include "nas_procedures.h"

@@ -357,7 +357,9 @@ typedef struct sac_to_tacs_map_config_s {
   obj_hash_table_t* sac_to_tacs_map_htbl;
 } sac_to_tacs_map_config_t;
 
-typedef struct mme_config_s {
+typedef struct mme_config_t mme_config_t;
+
+struct mme_config_t {
   /* Reader/writer lock for this configuration */
   pthread_rwlock_t rw_lock;
 
@@ -418,7 +420,7 @@ typedef struct mme_config_s {
   long mme_app_zmq_auth_th;
   long mme_app_zmq_ident_th;
   long mme_app_zmq_smc_th;
-} mme_config_t;
+};
 
 extern mme_config_t mme_config;
 

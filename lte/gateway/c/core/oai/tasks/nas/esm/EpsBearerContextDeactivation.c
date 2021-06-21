@@ -40,7 +40,7 @@
 #include "emm_esmDef.h"
 #include "esm_sapDef.h"
 #include "esm_pt.h"
-#include "mme_app_state.h"
+#include "public/mme_app_state.h"
 
 /****************************************************************************/
 /****************  E X T E R N A L    D E F I N I T I O N S  ****************/

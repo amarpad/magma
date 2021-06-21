@@ -32,7 +32,7 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-#include <mme_app_state.h>
+#include "public/mme_app_state.h"
 
 #include "log.h"
 #include "mme_app_sgs_fsm.h"
